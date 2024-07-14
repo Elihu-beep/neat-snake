@@ -45,6 +45,10 @@ class Main:
          self.snake.body[0][0] >= COLS  or self.snake.body[0][0] < 0 or \
          self.snake.body[1][1] >= ROWS or self.snake.body[1][1] < 0:
              self.snake.reset()
+             self.apple.set_pos()
+             self.snake.update_head()
+             self.snake.update_tail()
+             self.snake.update_body()
              self.score = 0
              self.game_active = False
 
