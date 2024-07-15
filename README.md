@@ -2,7 +2,7 @@
 
 An AI that plays Snake game using NEAT (NeuroEvolution of Augmenting Topologies) Python library.
 
-The Snake game was made using Pygame and the assets where created using Aseprite.
+The Snake game was made using Pygame and the assets were created using Aseprite.
 
 <img src="./demo.gif" width="600">
 
@@ -14,7 +14,6 @@ The Snake game was made using Pygame and the assets where created using Aseprite
 
     ```cd snake-ai```
 
-<br>
 
 2. Execute the main script
 
@@ -28,7 +27,6 @@ The Snake game was made using Pygame and the assets where created using Aseprite
 
     ```cd playable_snake```
 
-<br>
 
 2. Execute the main script
 
