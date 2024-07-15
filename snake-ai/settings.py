@@ -1,0 +1,19 @@
+import pygame
+from sys import exit
+from os.path import join
+
+CELL_SIZE = 80
+ROWS = 10
+COLS = 16
+WINDOW_WIDTH = COLS * CELL_SIZE
+WINDOW_HEIGHT = ROWS * CELL_SIZE
+
+COLOR = "#00686E"
+BG_COLOR = "#8585AD"
+
+START_LENGHT = 3
+START_ROW = ROWS // 2
+START_COL = START_LENGHT + 2
+
+SHADOW_SIZE = pygame.Vector2(4,4)
+SHADOW_OPACITY = 50
